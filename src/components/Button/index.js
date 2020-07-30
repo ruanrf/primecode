@@ -13,14 +13,29 @@ const Button = styled.button`
     border-radius: 1px;
     text-decoration: none;
     display: inline-block;
-    transition: opacity .2s;
+    transition: opacity .05s;
 
     &:hover,
     &:focus {
-        opacity: .5;
+        opacity: .8;
     }
+
+    @media (max-width: 800px) {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--black);
+        border-radius: 0;
+        border: 0;
+        text-align: center;
+        font-size: 14px;
+        &:hover,
+        &:focus {
+            opacity: .95;
+        }
+        /* height: 25px; */
+}
 `;
 
 export default Button
-
-

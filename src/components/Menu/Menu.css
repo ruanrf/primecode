@@ -29,7 +29,7 @@
 }
 
 body {
-    --bodyPaddingTop: 94;
+    --bodyPaddingTop: 59px;
     padding-top: var(--bodyPaddingTop);
 }
 
@@ -41,40 +41,5 @@ body {
     body {
         --bodyPaddingTop: 40px;
         padding-top: var(--bodyPaddingTop);
-    }
-}
-
-.ButtonLink {
-    color: var(--primary);
-    border: 1px solid var(--white);
-    box-sizing: border-box;
-    cursor: pointer;
-    padding: 6px 12px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    outline: none;
-    border-radius: 1px;
-    text-decoration: none;
-    display: inline-block;
-    transition: opacity .2s;
-}
-.ButtonLink:hover,
-.ButtonLink:focus {
-    opacity: .5;
-}
-
-@media (max-width: 800px) {
-    a.ButtonLink {
-        position: fixed;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: var(--black);
-        border-radius: 0;
-        border: 0;
-        text-align: center;
-        font-size: 14px;
-        /* height: 25px; */
     }
 }
