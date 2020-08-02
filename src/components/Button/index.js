@@ -1,4 +1,5 @@
-import styled from "styled-components";
+/* eslint-disable linebreak-style */
+import styled from 'styled-components';
 
 const Button = styled.button`
     color: var(--primary);
@@ -38,4 +39,4 @@ const Button = styled.button`
 }
 `;
 
-export default Button
+export default Button;
